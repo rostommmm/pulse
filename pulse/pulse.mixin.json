@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "package": "ru.pulse.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "pulse.refmap.json",
+  "verbose": false,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BackgroundRendererMixin",
+    "BossBarHudMixin",
+    "ClientConnectionMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityHitboxMixin",
+    "FirstPersonRendererMixin",
+    "GameMenuScreenMixin",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "ItemRendererMixin",
+    "ItemStackMixin",
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "MixinClientPlayNetworkHandler",
+    "MouseMixin",
+    "NativeImageMixin",
+    "OverlayRendererMixin",
+    "StatusEffectsMixin",
+    "TotemEffectMixin",
+    "WorldRendererMixin",
+    "accessor.BossBarHudAccessor",
+    "accessor.GameRendererAccessor",
+    "accessor.PlayerListHudAccessor"
+  ]
+}

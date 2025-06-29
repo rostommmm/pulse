@@ -1,0 +1,6 @@
+{
+  "name": "Pulse Addon",
+  "uuid": "%uuid%",
+  "mainClass": "ru.pulse.Pulse",
+  "transformerClass": "ru.pulse.launch.AddonTransformer"
+}
